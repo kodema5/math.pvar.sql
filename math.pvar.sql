@@ -1,3 +1,7 @@
+\if :{?math_pvar_sql}
+\else
+\set math_pvar_sql true
+
 create schema if not exists math;
 
 create or replace function math.equ (
@@ -14,3 +18,5 @@ $$;
 
 \ir src/math/pvar.sql
 \ir src/math/pcorr.sql
+
+\endif
