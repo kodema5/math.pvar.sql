@@ -18,5 +18,6 @@ $$;
 
 \ir src/math/pvar.sql
 \ir src/math/pcorr.sql
+\ir tests/index.sql
 
 \endif
